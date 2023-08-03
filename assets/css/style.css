@@ -1665,15 +1665,11 @@ textarea.input {
         
     }
     
-    .details__description{
-        margin-right:40px ;
-        
-    }
     .portfolio__popup-close .uil-times{
         position: absolute;
-        bottom:-80px;
+        bottom:-70px;
         font-size: 30px;
-        left: -30px;
+        left: -40px;
 
     }
     .services__container {
@@ -1729,10 +1725,8 @@ textarea.input {
     .details__title {
         font-size: var(--normal-font-size);
     }
-
-  
-
 }
+
 
 
 @media screen and (max-width: 576px) {
