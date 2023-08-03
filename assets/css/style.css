@@ -1796,7 +1796,6 @@ textarea.input {
         display: none;
         }
 }
-
 /* For Small Devices */
 @media screen and (max-width: 350px) {
     .container {
@@ -1847,6 +1846,18 @@ textarea.input {
     .work__item {
         font-size: var(--small-font-size);
     }
+    .work__img,
+    .details__description{
+        padding-right:15px ;
+        
+    }
+    .portfolio__popup-close .uil-times{
+        position: absolute;
+        bottom:-80px;
+        font-size: 30px;
+        left: -25px;
+
+    }
 
     .work__filters {
         column-gap: .25rem;
@@ -1867,6 +1878,8 @@ textarea.input {
     display: none;
     }
 }
+
+
 
 
 
