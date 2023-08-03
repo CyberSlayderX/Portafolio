@@ -1651,7 +1651,31 @@ textarea.input {
     .work__container {
         grid-template-columns: 330px;
     }
+    
+    .container__btn .btn-1{
+        width: 350px;
+    }
+    .container__btn1
+    {
+        flex-direction: column;
+        
+    }
+    .container__btn{
+        margin-top: 10px;
+        
+    }
+    
+    .details__description{
+        margin-right:40px ;
+        
+    }
+    .portfolio__popup-close .uil-times{
+        position: absolute;
+        bottom:-80px;
+        font-size: 30px;
+        left: -30px;
 
+    }
     .services__container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -1706,10 +1730,10 @@ textarea.input {
         font-size: var(--normal-font-size);
     }
 
-    .portfolio__popup-close {
-        top: .5rem;
-    }
+  
+
 }
+
 
 @media screen and (max-width: 576px) {
     .nav__toggle {
